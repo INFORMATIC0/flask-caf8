@@ -7,7 +7,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-    return jsonify({"Choo Choo": "Welcome to your Flask app 🚅"})
+    return 'Hola'
 @app.route('/getToken')
 def getTok():
 	getToken = requests.session()
